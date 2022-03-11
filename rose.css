@@ -1,26 +1,25 @@
 .rose {
-  --rose: pink;
-  background: var(--rose);
+  transition: color 36ms;
+  background-color: pink;
   color: #111;
+  accent-color: #628;
+}
+
+mark.rose {
+  background-color: transparent;
 }
 
 .rose ::selection {
-  background: #111;
-  color: var(--rose);
+  background-color: midnightblue;
+  color: gainsboro;
 }
 
 .rose :any-link {
-  color: indigo;
+  color: #628;
+  outline-color: #628;
 }
 
-@media (prefers-contrast: less) {
-  .rose {
-    --rose: lightpink;
-  }
-}
-
-@media (prefers-contrast: more) {
-  .rose {
-    --rose: mistyrose;
-  }
+.rose :any-link:focus {
+  color: #111;
+  outline-color: #111;
 }
