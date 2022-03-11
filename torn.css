@@ -1,0 +1,15 @@
+.torn {
+  background-image: linear-gradient(to left, lightpink 0, lightpink 50%, pink 50%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .torn {
+    background-image: linear-gradient(to left, #bae 0, #bae 50%, thistle 50%);
+  }
+}
+
+@media (prefers-contrast: more) {
+  .torn {
+    background-image: linear-gradient(to left, pink 0, pink 50%, mistyrose 50%);
+  }
+}
