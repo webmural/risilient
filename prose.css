@@ -42,12 +42,12 @@ footer {
   box-sizing: border-box;
   padding: 1rem;
   font-family: monospace;
-  writing-mode: vertical-rl;
   align-self: center;
+  margin-block-start: -1em;
+  margin-inline-start: auto;
+  writing-mode: vertical-lr;
 }
 
-@media (orientation: portrait) {
-  output {
-    transform: rotate(90deg);
-  }
+footer :any-link {
+  text-decoration-line: overline;
 }
