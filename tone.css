@@ -1,16 +1,16 @@
-.torn {
+.tone {
   --direction: to left;
   background-image: linear-gradient(var(--direction), lightpink 0, lightpink 50%, pink 50%);
 }
 
 @media (prefers-contrast: more) {
-  .torn {
+  .tone {
     background-image: linear-gradient(var(--direction), pink 0, pink 50%, mistyrose 50%);
  }
 }
 
 @media (orientation: portrait) {
-  .torn {
-    --direction: to top;
+  .tone {
+    --direction: to bottom;
   }
 }
