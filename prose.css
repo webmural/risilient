@@ -48,3 +48,9 @@ footer {
 footer :any-link {
   text-decoration-line: overline;
 }
+
+@media (orientation: portrait) {
+  output {
+    writing-mode: vertical-lr;
+  }
+}
