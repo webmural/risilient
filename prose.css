@@ -41,11 +41,8 @@ output {
 footer {
   box-sizing: border-box;
   padding: 1rem;
-  font-family: monospace;
   align-self: center;
-  margin-block-start: -1em;
   margin-inline-start: auto;
-  writing-mode: vertical-lr;
 }
 
 footer :any-link {
